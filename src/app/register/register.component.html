@@ -62,7 +62,14 @@
             </div>
 
             <div class="form-group text-center mt-2">
-              <input (click)="onSubmit()" value="Register" class="btn login_btn" />
+              <!--<input (click)="onSubmit()" value="Register" class="btn login_btn" />-->
+              <button *ngIf="!submitting" (click)="onSubmit()" class="btn login_btn">Login</button>
+              <div *ngIf="submitting" class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
             </div>
           </form>
         </div>

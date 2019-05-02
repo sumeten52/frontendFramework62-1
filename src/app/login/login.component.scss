@@ -4,7 +4,7 @@
 
 html,
 body {
-  background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+  background-image: url('../../assets/game3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -34,10 +34,18 @@ body {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
+.reg {
+  color: #FFC312;
+}
+
+.red {
+  color: #FFC312;
+}
+
 .social_icon span {
   font-size: 60px;
   margin-left: 10px;
-  color: #e0c320;
+  color: hsl(236, 100%, 50%);
 }
 
 .social_icon span:hover {
